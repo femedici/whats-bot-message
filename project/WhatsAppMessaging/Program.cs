@@ -14,8 +14,8 @@ namespace WhatsAppMessaging
             // Envio de texto
             var textMessage = new Message
             {
-                To = "14155552671",
-                Body = "Mensagem de teste via API WhatsApp"
+                To = "554497192500",
+                Body = "Mensagem totalmente epica da API do felipe M3D1C1!"
             };
 
             var textResponse = await service.SendMessageAsync(textMessage);
@@ -24,9 +24,9 @@ namespace WhatsAppMessaging
             // Envio de mídia (exemplo: imagem)
             var mediaMessage = new Message
             {
-                To = "14155552671",
-                MediaUrl = "https://file-example.s3-accelerate.amazonaws.com/images/test.jpg",
-                Caption = "Imagem de teste"
+                To = "554497192500",
+                MediaUrl = "https://pbs.twimg.com/card_img/1857634781670027264/4uc2vk85?format=jpg&name=large",
+                Caption = "Imagem do FELIPE MEDICI"
             };
 
             var mediaResponse = await service.SendMediaMessageAsync(mediaMessage, "image");
