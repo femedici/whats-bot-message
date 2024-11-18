@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "vDbJhFHYIYw=",
+  "success": true,
+  "projectFilePath": "D:\\projects_dev3\\whats-bot-message\\project\\project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer 3\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'RestSharp' 108.0.1 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
