@@ -45,7 +45,7 @@ Inicie o projeto
 
 
 > Listagem de Requests:
-![Databrick projecct with Snowflake](images/send-request.png)
+![Databrick projecct with Snowflake](images/send-requests.png)
 
 > Visualização no WhatsApp:
 ![Databrick projecct with Snowflake](images/working-messages.png)
