@@ -1,6 +1,6 @@
 namespace WhatsAppMessaging.Models
 {
-    public class Message
+    public class WhatsMessage
     {
         public string To { get; set; }
         public string Body { get; set; }

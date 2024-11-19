@@ -7,7 +7,7 @@ namespace WhatsAppMessaging.Services
 {
     public class WhatsAppService
     {
-        public async Task<string> SendMessageAsync(Message message)
+        public async Task<string> SendMessageAsync(WhatsMessage message)
         {
             var url = $"{Config.BaseUrl}{Config.InstanceId}/messages/chat";
             var client = new RestClient();
@@ -24,7 +24,7 @@ namespace WhatsAppMessaging.Services
             return response.Content ?? string.Empty;
         }
 
-        public async Task<string> SendMediaMessageAsync(Message message, string mediaType)
+        public async Task<string> SendMediaMessageAsync(WhatsMessage message, string mediaType)
         {
             var url = $"{Config.BaseUrl}{Config.InstanceId}/messages/{mediaType}";
             var client = new RestClient();
@@ -46,7 +46,7 @@ namespace WhatsAppMessaging.Services
             return response.Content ?? string.Empty;
         }
 
-        public async Task<string> SendLocationAsync(Message message)
+        public async Task<string> SendLocationAsync(WhatsMessage message)
         {
             var url = $"{Config.BaseUrl}{Config.InstanceId}/messages/location";
             var client = new RestClient();
@@ -66,7 +66,7 @@ namespace WhatsAppMessaging.Services
         }
 
 
-        public async Task<string> SendAudioAsync(Message message, string mediaType)
+        public async Task<string> SendAudioAsync(WhatsMessage message, string mediaType)
         {
             var url = $"{Config.BaseUrl}{Config.InstanceId}/messages/{mediaType}";
             var client = new RestClient();
@@ -84,7 +84,7 @@ namespace WhatsAppMessaging.Services
         }
 
 
-        public async Task<string> SendVideoAsync(Message message, string mediaType)
+        public async Task<string> SendVideoAsync(WhatsMessage message, string mediaType)
         {
             var url = $"{Config.BaseUrl}{Config.InstanceId}/messages/{mediaType}";
             var client = new RestClient();
