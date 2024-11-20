@@ -11,6 +11,7 @@
     - Localização
 
 ## Estrutura do Projeto
+```bash
 /project
   /WhatsAppMessaging
     /Controllers
@@ -22,9 +23,11 @@
     /Utils
         - Config.cs
     /UI
-        - MainForm.cs          
+        - MainForm.cs           
         - MainForm.Designer.cs 
     Program.cs
+```
+
 
 ## Rodando o projeto
 
